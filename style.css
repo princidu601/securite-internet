@@ -8,7 +8,12 @@ body {
     margin: 0;
     padding: 0;
 }
-
+/* Style pour le paragraphe "J'aime la galette" */
+.grand-texte {
+    font-size: 24px;
+    color: darkblue
+    font-weight: bold
+}
 /* Style des titres */
 h1 {
     color: purple;
