@@ -1,6 +1,6 @@
 /* Style général */
 body {
-    font-family: "Segoe UI", Tahoma, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: lightblue;
     color: #333333;
     font-size: 20px
@@ -8,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 /* Style pour le paragraphe "Internet est devenu indispensable dans notre quotidien
   mais son utilisation comporte plusieurs risques" */
 .grand-texte {
@@ -15,8 +16,12 @@ body {
     color: darkblue
     font-weight: bold
 }
+
 /* Style des titres */
 h1 {
+    font-family: 'Poppins', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
     color: purple;
     font-size: 60px;
     margin-top: 60px;
