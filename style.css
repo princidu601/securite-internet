@@ -3,6 +3,7 @@ body {
     font-family: "Segoe UI", Tahoma, sans-serif;
     background-color: #f0f0f0;
     color: #333333;
+    font-size: 20px
     text-align: center;
     margin: 0;
     padding: 0;
@@ -41,5 +42,6 @@ ul {
     list-style-type: square;
     text-align: left;
     display: inline-block;
+    font-size: 20px
     margin-top: 10px;
 }
