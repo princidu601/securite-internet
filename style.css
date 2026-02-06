@@ -1,7 +1,7 @@
 /* Style général */
 body {
     font-family: "Segoe UI", Tahoma, sans-serif;
-    background-color: #f0f0f0;
+    background-color: lightblue;
     color: #333333;
     font-size: 20px
     text-align: center;
@@ -11,7 +11,7 @@ body {
 
 /* Style des titres */
 h1 {
-    color: #0077cc;
+    color: purple;
     font-size: 60px;
     margin-top: 60px;
 }
@@ -34,7 +34,8 @@ nav a {
 }
 
 nav a:hover {
-    color: #ff6600;
+    color: yellow;
+    text-decoration: underline
 }
 
 /* Liste */
@@ -45,3 +46,9 @@ ul {
     font-size: 20px
     margin-top: 10px;
 }
+.explication {
+    font-size: 14px;
+    color: gray;
+    margin: 4px 0 10px 20px; 
+}
+    
