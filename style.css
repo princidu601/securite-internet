@@ -1,21 +1,21 @@
-/* ===== Body ===== */
+/* ==================== Body ==================== */
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to bottom right, #1e3c72, #2a5298); /* beau dégradé bleu */
-    color: #ffffff;
     margin: 0;
     padding: 0;
-    display: flex; /* pour le menu à gauche */
+    display: flex; /* pour menu + contenu */
+    min-height: 100vh;
+    background: linear-gradient(to right, #141e30, #243b55); /* beau dégradé bleu foncé */
+    color: #ffffff;
 }
 
-/* ===== Navigation verticale ===== */
+/* ==================== Menu vertical ==================== */
 nav {
-    width: 150px; /* plus fin que 200px */
-    background-color: rgba(0, 0, 0, 0.6); /* semi-transparent */
-    padding: 20px;
-    height: 100vh; /* tout l'écran en hauteur */
+    width: 180px; /* pas trop large, laisse de la place au contenu */
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px 20px;
     display: flex;
-    flex-direction: column; /* menu haut -> bas */
+    flex-direction: column;
     align-items: flex-start;
     box-shadow: 2px 0 10px rgba(0,0,0,0.3);
 }
@@ -25,7 +25,7 @@ nav a {
     text-decoration: none;
     font-size: 22px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     transition: all 0.3s ease;
 }
 
@@ -34,24 +34,23 @@ nav a:hover {
     transform: scale(1.1);
 }
 
-/* ===== Contenu principal ===== */
+/* ==================== Contenu principal ==================== */
 .main-content {
-    padding: 40px;
-    flex: 1; /* reste flexible */
-    max-width: 1000px;   /* largeur max du contenu */
-    margin-left: 20px;   /* décalage depuis le menu */
-    margin-right: 20px;  /* espace à droite pour respirer */
+    flex: 1; /* prend tout l'espace restant */
+    padding: 50px 40px;
+    max-width: 1200px; /* largeur maximale pour grands écrans */
+    margin-left: 20px;  /* espace entre menu et contenu */
 }
 
-/* ===== H1 ===== */
+/* ==================== H1 ==================== */
 h1 {
-    font-size: 80px;
-    font-weight: 900; /* très gras */
-    text-shadow: 2px 2px 8px rgba(0,0,0,0.5); /* effet sophistiqué */
-    margin-bottom: 30px;
+    font-size: 80px;       /* très grand */
+    font-weight: 900;      /* très gras */
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.7); /* effet sophistiqué */
+    margin-bottom: 40px;
 }
 
-/* ===== H2 ===== */
+/* ==================== H2 ==================== */
 h2 {
     font-size: 50px;
     font-weight: 700;
@@ -62,23 +61,52 @@ h2 {
     padding-bottom: 5px;
 }
 
-/* ===== Paragraphes ===== */
+/* ==================== Paragraphes ==================== */
 p {
     font-size: 20px;
     line-height: 1.6;
     margin-bottom: 30px;
 }
 
-/* ===== Image ===== */
+/* ==================== Images ==================== */
 .image-securite {
     width: 200px;
     display: block;
     margin-bottom: 30px;
     border-radius: 10px;
-    box-shadow: 4px 4px 15px rgba(0,0,0,0.4);
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
 }
 
-/* ===== Effets de transition pour tout le contenu ===== */
+/* ==================== Effets de transition ==================== */
 a, h1, h2, p {
     transition: all 0.3s ease;
+}
+
+/* ==================== Responsivité (optionnel) ==================== */
+@media screen and (max-width: 900px) {
+    body {
+        flex-direction: column;
+    }
+    nav {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 15px;
+        box-shadow: none;
+    }
+    nav a {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+    .main-content {
+        margin-left: 0;
+        padding: 30px 20px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 40px;
+    }
 }
