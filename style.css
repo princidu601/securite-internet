@@ -10,7 +10,7 @@ body {
 
 /* ===== Navigation verticale ===== */
 nav {
-    width: 200px;
+    width: 150px; /* plus fin que 200px */
     background-color: rgba(0, 0, 0, 0.6); /* semi-transparent */
     padding: 20px;
     height: 100vh; /* tout l'écran en hauteur */
