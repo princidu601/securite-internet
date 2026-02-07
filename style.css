@@ -110,4 +110,23 @@ a, h1, h2, p {
     h2 {
         font-size: 40px;
     }
+
+    /* ==================== Listes ==================== */
+ul {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding-left: 30px;
+    list-style-type: circle;
+}
+
+li {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+li::marker {
+    color: #ffcc00;
+    font-size: 25px;
 }
