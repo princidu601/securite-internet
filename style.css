@@ -36,10 +36,11 @@ nav a:hover {
 
 /* ==================== Contenu principal ==================== */
 .main-content {
-    flex: 1; /* prend tout l'espace restant */
-    padding: 50px 40px;
-    max-width: 1200px; /* largeur maximale pour grands écrans */
-    margin-left: 20px;  /* espace entre menu et contenu */
+    max-width: 1000px;       /* largeur maximale du texte */
+    width: 90%;              /* prend 90% de l'écran */
+    margin: 40px auto;       /* centré horizontalement */
+    padding: 20px;
+    text-align: justify;     /* texte aligné correctement des deux côtés */
 }
 
 /* ==================== H1 ==================== */
