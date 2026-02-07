@@ -1,31 +1,22 @@
-/* ==================== Body ==================== */
-body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex; /* pour menu + contenu */
-    min-height: 100vh;
-    background: linear-gradient(to right, #141e30, #243b55); /* beau dégradé bleu foncé */
-    color: #ffffff;
-}
-
 /* ==================== Menu vertical ==================== */
 nav {
-    width: 180px; /* pas trop large, laisse de la place au contenu */
+    width: 220px; /* menu assez large pour les liens */
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 30px 20px;
+    padding: 40px 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* vertical */
     align-items: flex-start;
     box-shadow: 2px 0 10px rgba(0,0,0,0.3);
+    height: 100vh; /* tout l'écran en hauteur */
+    position: fixed; /* reste visible quand on scroll */
 }
 
 nav a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 24px;  /* plus grande police pour lire facilement */
     font-weight: bold;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     transition: all 0.3s ease;
 }
 
@@ -34,99 +25,9 @@ nav a:hover {
     transform: scale(1.1);
 }
 
-/* ==================== Contenu principal ==================== */
 .main-content {
-    max-width: 1000px;       /* largeur maximale du texte */
-    width: 90%;              /* prend 90% de l'écran */
-    margin: 40px auto;       /* centré horizontalement */
-    padding: 20px;
-    text-align: justify;     /* texte aligné correctement des deux côtés */
-}
-
-/* ==================== H1 ==================== */
-h1 {
-    font-size: 80px;       /* très grand */
-    font-weight: 900;      /* très gras */
-    text-shadow: 3px 3px 10px rgba(0,0,0,0.7); /* effet sophistiqué */
-    margin-bottom: 40px;
-}
-
-/* ==================== H2 ==================== */
-h2 {
-    font-size: 50px;
-    font-weight: 700;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    border-bottom: 3px solid #ffffff;
-    display: inline-block;
-    padding-bottom: 5px;
-}
-
-/* ==================== Paragraphes ==================== */
-p {
-    font-size: 20px;
-    line-height: 1.6;
-    margin-bottom: 30px;
-}
-
-/* ==================== Images ==================== */
-.image-securite {
-    width: 200px;
-    display: block;
-    margin-bottom: 30px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
-}
-
-/* ==================== Effets de transition ==================== */
-a, h1, h2, p {
-    transition: all 0.3s ease;
-}
-
-/* ==================== Responsivité (optionnel) ==================== */
-@media screen and (max-width: 900px) {
-    body {
-        flex-direction: column;
-    }
-    nav {
-        width: 100%;
-        height: auto;
-        flex-direction: row;
-        justify-content: space-around;
-        padding: 15px;
-        box-shadow: none;
-    }
-    nav a {
-        font-size: 18px;
-        margin-bottom: 0;
-    }
-    .main-content {
-        margin-left: 0;
-        padding: 30px 20px;
-    }
-    h1 {
-        font-size: 60px;
-    }
-    h2 {
-        font-size: 40px;
-    }
-
-    /* ==================== Listes ==================== */
-ul {
-    width: 90%;
+    margin-left: 240px;  /* laisse de la place pour le menu vertical */
+    padding: 40px;
     max-width: 1000px;
-    margin: 20px auto;
-    padding-left: 30px;
-    list-style-type: circle;
-}
-
-li {
-    font-size: 20px;
-    line-height: 1.8;
-    margin-bottom: 15px;
-}
-
-li::marker {
-    color: #ffcc00;
-    font-size: 25px;
+    width: 90%;
 }
