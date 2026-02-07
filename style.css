@@ -1,22 +1,28 @@
-/* ==================== Menu vertical ==================== */
+/* ==================== Body ==================== */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: #ffffff;
+}
+
+/* ==================== Menu horizontal ==================== */
 nav {
-    width: 220px; /* menu assez large pour les liens */
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 40px 20px;
     display: flex;
-    flex-direction: column; /* vertical */
-    align-items: flex-start;
-    box-shadow: 2px 0 10px rgba(0,0,0,0.3);
-    height: 100vh; /* tout l'écran en hauteur */
-    position: fixed; /* reste visible quand on scroll */
+    justify-content: center; /* centré horizontalement */
+    padding: 25px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.4);
 }
 
 nav a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 24px;  /* plus grande police pour lire facilement */
+    font-size: 24px;       /* plus grande police pour lisibilité */
     font-weight: bold;
-    margin-bottom: 30px;
+    margin: 0 40px;        /* espace entre les liens */
     transition: all 0.3s ease;
 }
 
@@ -25,9 +31,88 @@ nav a:hover {
     transform: scale(1.1);
 }
 
+/* ==================== Contenu principal ==================== */
 .main-content {
-    margin-left: 240px;  /* laisse de la place pour le menu vertical */
-    padding: 40px;
-    max-width: 1000px;
-    width: 90%;
+    max-width: 1200px;  /* largeur maximale pour grands écrans */
+    width: 90%;         /* prend 90% de l'écran */
+    margin: 40px auto;  /* centré horizontalement */
+    padding: 20px;
+    text-align: justify; /* texte plus lisible */
+}
+
+/* ==================== H1 ==================== */
+h1 {
+    font-size: 80px;        /* très grand */
+    font-weight: 900;       /* très gras */
+    text-align: center;     /* centré */
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.7);
+    margin-bottom: 40px;
+}
+
+/* ==================== H2 ==================== */
+h2 {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #ffffff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* ==================== Paragraphes ==================== */
+p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+/* ==================== Listes ==================== */
+ul {
+    width: 100%;           /* prend toute la largeur du contenu */
+    margin: 20px 0;
+    padding-left: 30px;
+    list-style-type: circle;
+}
+
+li {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+li::marker {
+    color: #ffcc00;
+    font-size: 25px;
+}
+
+/* ==================== Images ==================== */
+.image-securite {
+    width: 250px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+}
+
+/* ==================== Responsivité ==================== */
+@media screen and (max-width: 900px) {
+    nav {
+        flex-direction: column;
+        padding: 15px 0;
+    }
+    nav a {
+        margin: 15px 0;
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    .image-securite {
+        width: 200px;
+    }
 }
