@@ -1,8 +1,19 @@
-# La sécurité sur internet
-petit projet réalisé sur HTML et CSS pour une exposé en METU
+# Sécurité sur Internet
+
 ## Objectif
-Le but de ce projet est de montrer les dangers d’Internet et comment se protéger de ces dangers!
-## pages du site
-- accueil
-- dangers
-- bonnes pratiques
+Ce projet a pour but de présenter les principaux dangers liés à Internet et les bonnes pratiques pour s’en protéger. Il est réalisé en HTML et CSS.
+
+## Description
+Le site contient :
+- Une page d'accueil avec le titre et l'objectif du projet
+- Une page “Dangers” qui liste les principaux risques en ligne
+- Une page “Bonnes pratiques” qui explique comment se protéger
+- Une mise en page simple et responsive avec CSS
+
+## Technologies utilisées
+- HTML
+- CSS
+- GitHub Pages (pour la mise en ligne)
+
+## Lien du site en ligne
+[Voir le site]
