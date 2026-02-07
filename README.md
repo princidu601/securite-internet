@@ -1,4 +1,4 @@
-# Sécurité sur Internet
+# La Sécurité sur Internet
 
 ## Objectif
 Ce projet a pour but de présenter les principaux dangers liés à Internet et les bonnes pratiques pour s’en protéger. Il est réalisé en HTML et CSS.
@@ -16,4 +16,4 @@ Le site contient :
 - GitHub Pages (pour la mise en ligne)
 
 ## Lien du site en ligne
-[Voir le site]
+[Voir le site] (https://princidu601.github.io/securite-internet/)
