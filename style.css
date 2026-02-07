@@ -37,7 +37,10 @@ nav a:hover {
 /* ===== Contenu principal ===== */
 .main-content {
     padding: 40px;
-    flex: 1; /* prend le reste de l'écran */
+    flex: 1; /* reste flexible */
+    max-width: 1000px;   /* largeur max du contenu */
+    margin-left: 20px;   /* décalage depuis le menu */
+    margin-right: 20px;  /* espace à droite pour respirer */
 }
 
 /* ===== H1 ===== */
