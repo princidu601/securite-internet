@@ -27,6 +27,14 @@ h1 {
     margin-top: 60px;
 }
 
+/* Image sécurité */
+.image-securite {
+    width: 150px;
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
 h2 {
     color: #0055aa;
 }
@@ -64,12 +72,5 @@ ul {
     margin: 4px 0 10px 20px;     
 }
 
-/* Image sécurité */
-.image-securite {
-    width: 150px;
-    display: block;
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
 
     
