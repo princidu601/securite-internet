@@ -57,9 +57,19 @@ ul {
     font-size: 20px
     margin-top: 10px;
 }
+
 .explication {
     font-size: 14px;
     color: white;
-    margin: 4px 0 10px 20px; 
+    margin: 4px 0 10px 20px;     
 }
+
+/* Image sécurité */
+.image-securite {
+    width: 150px;
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
     
