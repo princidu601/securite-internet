@@ -1,47 +1,81 @@
-/* Body et police */
+/* ===== Body ===== */
 body {
-    font-family: "Segoe UI", sans-serif;
-    background-color: #f0f0f0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom right, #1e3c72, #2a5298); /* beau dégradé bleu */
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex; /* pour le menu à gauche */
 }
 
-/* H1 */
-h1 {
-    font-size: 60px;
-    text-align: left;
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
-
-/* Image sécurité */
-.image-securite {
-    width: 150px;
-    display: block;
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
-
-/* Paragraphe grand texte */
-.grand-texte {
-    font-size: 20px;
-    text-align: left;
-    margin-left: 20px;
-    margin-bottom: 30px;
-}
-
-/* Navigation */
+/* ===== Navigation verticale ===== */
 nav {
-    margin-left: 20px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.6); /* semi-transparent */
+    padding: 20px;
+    height: 100vh; /* tout l'écran en hauteur */
+    display: flex;
+    flex-direction: column; /* menu haut -> bas */
+    align-items: flex-start;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.3);
 }
 
 nav a {
-    margin-right: 15px;
+    color: #ffffff;
     text-decoration: none;
-    color: #0077cc;
-    font-size: 16px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
     transition: all 0.3s ease;
 }
 
 nav a:hover {
-    color: #ff6600;
+    color: #ffcc00;
     transform: scale(1.1);
+}
+
+/* ===== Contenu principal ===== */
+.main-content {
+    padding: 40px;
+    flex: 1; /* prend le reste de l'écran */
+}
+
+/* ===== H1 ===== */
+h1 {
+    font-size: 80px;
+    font-weight: 900; /* très gras */
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.5); /* effet sophistiqué */
+    margin-bottom: 30px;
+}
+
+/* ===== H2 ===== */
+h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #ffffff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* ===== Paragraphes ===== */
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* ===== Image ===== */
+.image-securite {
+    width: 200px;
+    display: block;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.4);
+}
+
+/* ===== Effets de transition pour tout le contenu ===== */
+a, h1, h2, p {
+    transition: all 0.3s ease;
 }
