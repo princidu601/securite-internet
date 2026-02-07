@@ -23,7 +23,7 @@ h1 {
   font-size: 4rem;
   font-weight: 700;
     color: purple;
-    font-size: 60px;
+    font-size: 70px;
     margin-top: 60px;
 }
 
@@ -45,7 +45,7 @@ nav a {
 }
 
 nav a:hover {
-    color: yellow;
+    color: white;
     text-decoration: underline
 }
 
@@ -59,7 +59,7 @@ ul {
 }
 .explication {
     font-size: 14px;
-    color: black;
+    color: white;
     margin: 4px 0 10px 20px; 
 }
     
