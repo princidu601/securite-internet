@@ -1,30 +1,15 @@
-/* Style général */
+/* Body et police */
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: black;
-    color: #D16461;
-    font-size: 40px;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+    background-color: #f0f0f0;
 }
 
-/* Style pour le paragraphe "Internet est devenu indispensable dans notre quotidien
-  mais son utilisation comporte plusieurs risques" */
-.grand-texte {
-    font-size: 50px;
-    color: darkblue
-    font-weight: bold
-}
-
-/* Style des titres */
+/* H1 */
 h1 {
-    font-family: 'Poppins', sans-serif;
-  font-size: 4rem;
-  font-weight: 700;
-    color: purple;
-    font-size: 70px;
-    margin-top: 60px;
+    font-size: 60px;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 /* Image sécurité */
@@ -35,42 +20,28 @@ h1 {
     margin-bottom: 20px;
 }
 
-h2 {
-    color: #0055aa;
+/* Paragraphe grand texte */
+.grand-texte {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 30px;
 }
 
-/* Menu de navigation */
+/* Navigation */
 nav {
-    margin: 20px 0;
+    margin-left: 20px;
 }
 
 nav a {
+    margin-right: 15px;
     text-decoration: none;
-    color: purple;
-    font-size: 30px;
-    margin: 0 12px;
-    font-weight: bold;
+    color: #0077cc;
+    font-size: 16px;
+    transition: all 0.3s ease;
 }
 
 nav a:hover {
-    color: white;
-    text-decoration: underline
+    color: #ff6600;
+    transform: scale(1.1);
 }
-
-/* Liste */
-ul {
-    list-style-type: square;
-    text-align: left;
-    display: inline-block;
-    font-size: 20px
-    margin-top: 10px;
-}
-
-.explication {
-    font-size: 14px;
-    color: white;
-    margin: 4px 0 10px 20px;     
-}
-
-
-    
