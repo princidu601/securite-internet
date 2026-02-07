@@ -1,9 +1,9 @@
 /* Style général */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: lightblue;
-    color: #333333;
-    font-size: 20px
+    background-color: black;
+    color: #D16461;
+    font-size: 40px;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
 /* Style pour le paragraphe "Internet est devenu indispensable dans notre quotidien
   mais son utilisation comporte plusieurs risques" */
 .grand-texte {
-    font-size: 24px;
+    font-size: 50px;
     color: darkblue
     font-weight: bold
 }
@@ -39,7 +39,7 @@ nav {
 nav a {
     text-decoration: none;
     color: purple;
-    font-size: 20px;
+    font-size: 30px;
     margin: 0 12px;
     font-weight: bold;
 }
