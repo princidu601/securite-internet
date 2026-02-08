@@ -1,19 +1,24 @@
 # La Sécurité sur Internet
 
 ## Objectif
-Ce projet a pour but de présenter les principaux dangers liés à Internet et les bonnes pratiques pour s’en protéger. Il est réalisé en HTML et CSS.
+Ce projet explique les principaux dangers de la cybersécurité et propose des solutions pour se protéger. Il a pour objectif de sensibiliser les utilisateurs aux risques numériques et de montrer comment adopter de bonnes pratiques pour sécuriser ses données personnelles et professionnelles.
 
 ## Description
 Le site contient :
-- Une page d'accueil avec le titre et l'objectif du projet
-- Une page “Dangers” qui liste les principaux risques en ligne
-- Une page “Bonnes pratiques” qui explique comment se protéger
+- Une page d'accueil avec le titre et une petite introduction de ce que c'est la cybersécurité 
+- Une page “Dangers” qui liste les principaux risques de la cyber sécurité
+- Une page “solutions” qui explique comment s'en protéger
 - Une mise en page simple et responsive avec CSS
 
 ## Technologies utilisées
 - HTML
 - CSS
-- GitHub Pages (pour la mise en ligne)
+- GitHub (pour la mise en ligne)
 
+## ressources et réferences
+sites d'information sur la cybersécurité
+-CNIL
+_ANSSI
+-cybermailveillance.gouv.fr
 ## Lien du site en ligne
 [Voir le site] (https://princidu601.github.io/securite-internet/)
