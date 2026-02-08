@@ -1,4 +1,4 @@
-# La Sécurité sur Internet
+# La Cybersécurité
 
 ## Objectif
 Ce projet explique les principaux dangers de la cybersécurité et propose des solutions pour se protéger. Il a pour objectif de sensibiliser les utilisateurs aux risques numériques et de montrer comment adopter de bonnes pratiques pour sécuriser ses données personnelles et professionnelles.
