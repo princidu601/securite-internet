@@ -49,15 +49,6 @@ h1 {
     margin-bottom: 40px;
 }
 
-/* ==================== Images ==================== */
-.image-securite {
-    width: 250px;
-    display: block;
-    margin: 20px auto;
-    border-radius: 10px;
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
-}
-
 /* ==================== H2 ==================== */
 h2 {
     font-size: 50px;
@@ -89,11 +80,11 @@ li {
     font-size: 20px;
     line-height: 1.8;
     margin-bottom: 15px;
-    color: #d4af37;
+    color: white;
 }
 
 li::marker {
-    color: #ffcc00;
+    color: white;
     font-size: 25px;
 }
 
