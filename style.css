@@ -170,3 +170,28 @@ li::marker {
         padding: 25px;
     }
 }
+
+/* ==================== style du bouton retour à l'accueil ==================== */
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: white;           
+  color: #2E7D32;              
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 8px;
+  border: 2px solid #2E7D32;  
+  box-shadow: 0 4px 6px rgba(0,0,0,0.15); 
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #f0f0f0;         
+  transform: translateY(-2px);
+  box-shadow: 0 6px 10px rgba(0,0,0,0.2);
+    
+.btn:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 5px rgba(0,0,0,0.15);
+}
